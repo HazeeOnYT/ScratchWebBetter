@@ -1,0 +1,2 @@
+# ScratchWebBetter
+ScratchWebBetter Extension

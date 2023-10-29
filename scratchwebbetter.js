@@ -1,5 +1,7 @@
 (function () {
     var extension = {
+        (function () {
+    var extension = {
         // VR Access Block
         vrAccess: function (variable) {
             
@@ -149,4 +151,22 @@
     // Register the extension
     ScratchExtensions.register('ScratchWebBetter', extension, {type: 'misc'});
 
+})();
+
+    };
+
+    (function () {
+    var extension = {
+        // Define your extension's block functionalities here
+        sayHello: function () {
+            alert('Hello, ScratchWebBetter!');
+        },
+        // More block functionalities...
+    };
+
+    // Register the extension with the name 'ScratchWebBetter'
+    ScratchExtensions.register('ScratchWebBetter', extension, {type: 'experimental'});
+})();
+
+    ScratchExtensions.register('ScratchWebBetter', extension, {type: 'experimental'});
 })();

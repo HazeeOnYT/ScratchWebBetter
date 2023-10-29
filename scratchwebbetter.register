@@ -1,0 +1,3 @@
+ScratchExtensions.register('ScratchWebBetter', {
+    // Block definitions and functionality
+});
